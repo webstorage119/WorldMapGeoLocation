@@ -49,3 +49,11 @@ echo "Longitude: " . $record->location->longitude;
 ## World Map based on the work of:
 
 https://github.com/richardzcode/worldMap.js
+
+## GeoLocation database from:
+
+https://dev.maxmind.com/geoip/geoip2/geolite2
+
+## GeoLocation database reader from:
+
+https://github.com/maxmind/GeoIP2-php/releases
