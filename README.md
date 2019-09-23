@@ -6,14 +6,14 @@ World Map and GeoLocation using Canvas, JavaScript and PHP with latitude and lon
 
 https://lrusso.github.io/WorldMapGeoLocation/WorldMap.htm
 
-## World Map - Code for drawing the World Map:
+## World Map - JavaScript - Code for drawing the World Map:
 
 ```
 var map = new Map();
 map.draw(document.getElementById("demo1"));
 ```
 
-## World Map - Code for drawing a point in the map:
+## World Map - JavaScript - Code for drawing a point in the map:
 
 ```
 var locationLatitude = -34.6021;
@@ -28,7 +28,7 @@ document.getElementById("demo1").getContext("2d").fillStyle = "red";
 document.getElementById("demo1").getContext("2d").fill();
 ```
 
-## World Map - Code for getting the distance (in KM) between two points
+## World Map - JavScript - Code for getting the distance (in KM) between two points
 
 ```
 function distance(lat1, lon1, lat2, lon2)
@@ -41,7 +41,7 @@ function distance(lat1, lon1, lat2, lon2)
     }
 ```
 
-## GeoLocation - Code for getting Country, State, City, Latitude and Longitude from an IP address:
+## GeoLocation - PHP - Code for getting Country, State, City, Latitude and Longitude from an IP address:
 
 ```
 require "WorldMap/autoload.php";
