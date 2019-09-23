@@ -6,7 +6,7 @@ World Map and GeoLocation using Canvas, JavaScript and PHP with latitude and lon
 
 https://lrusso.github.io/WorldMapGeoLocation/WorldMap.htm
 
-## World Map - JavaScript - Code for drawing the World Map:
+## World Map - JavaScript - Code for drawing the World Map in a canvas:
 
 ```
 var map = new Map();
