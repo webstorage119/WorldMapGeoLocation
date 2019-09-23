@@ -28,6 +28,24 @@ document.getElementById("demo1").getContext("2d").fillStyle = "red";
 document.getElementById("demo1").getContext("2d").fill();
 ```
 
+## GeoLocation - Code for getting Country, State, City, Latitude and Longitude from an IP address:
+
+```
+require "WorldMap/autoload.php";
+
+use GeoIp2\Database\Reader;
+
+$reader = new Reader("WorldMap/worldmap.dat");
+$record = $reader->city("186.137.166.235");
+
+echo "IP: " . "186.137.166.235<br/>";
+echo "Country: " . $record->country->name . "<br/>";
+echo "State: " . $record->mostSpecificSubdivision->name . "<br/>";
+echo "City: " . $record->city->name . "<br/>";
+echo "Latitude: " . $record->location->latitude . "<br/>";
+echo "Longitude: " . $record->location->longitude;
+```
+
 ## World Map based on the work of:
 
 https://github.com/richardzcode/worldMap.js
