@@ -28,7 +28,7 @@ document.getElementById("demo1").getContext("2d").fillStyle = "red";
 document.getElementById("demo1").getContext("2d").fill();
 ```
 
-## World Map - Code for getting the distance (in KM) between two latitudes and longitudes
+## World Map - Code for getting the distance (in KM) between two points
 
 ```
 function distance(lat1, lon1, lat2, lon2)
