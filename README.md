@@ -2,18 +2,18 @@
 
 World Map and GeoLocation using Canvas, JavaScript and PHP with latitude and longitude tracking features.
 
-## World Map Demo using Canvas:
+## World Map - Demo using Canvas:
 
 https://lrusso.github.io/WorldMapGeoLocation/WorldMap.htm
 
-## Code for drawing the World Map:
+## World Map - Code for drawing the World Map:
 
 ```
 var map = new Map();
 map.draw(document.getElementById("demo1"));
 ```
 
-## Code for drawing a point in the map:
+## World Map - Code for drawing a point in the map:
 
 ```
 var locationLatitude = -34.6021;
