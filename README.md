@@ -1,4 +1,4 @@
-# World Map and GeoLocation
+# World Map & GeoLocation
 
 World Map and GeoLocation using Canvas, JavaScript and PHP with latitude and longitude tracking features.
 
