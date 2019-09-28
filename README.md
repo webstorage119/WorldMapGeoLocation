@@ -1,6 +1,6 @@
 # World Map & GeoLocation
 
-World Map and GeoLocation using Canvas, JavaScript and PHP with latitude and longitude tracking features.
+World Map & GeoLocation using Canvas, JavaScript and PHP with latitude and longitude tracking features.
 
 ![alt screenshot](https://raw.githubusercontent.com/lrusso/WorldMapGeoLocation/master/WorldMap.png)
 
